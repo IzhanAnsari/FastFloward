@@ -6,7 +6,7 @@
 		}
 	},
 	"contracts": {
-		"Hello": "./contract.cdc"
+		"Artist": "./artist.contract.cdc"
 	},
 	"networks": {
 		"emulator": "127.0.0.1:3569",
@@ -16,24 +16,24 @@
 	"accounts": {
 		"emulator-account": {
 			"address": "f8d6e0586b0a20c7",
-			"key": "80edae5539f05be6f34303ca99e298a6979a1e7f2e73f1790d1d709e13651917"
+			"key": "95d7301e3246c637ff88ab0c5a4ff5b9a01e598d3ab14b0b3ccad83b79c31d7f"
 		},
-		"emulator-artist": {
-			"address": "01cf0e2f2f715450",
+		"ADDY_ALIAS": {
+			"address": "0x01cf0e2f2f715450",
 			"key": {
 				"type": "hex",
 				"index": 0,
 				"signatureAlgorithm": "ECDSA_secp256k1",
 				"hashAlgorithm": "SHA3_256",
-				"privateKey": "04a47fb7845293bf4f6889eaecefb76d2792db879354bcd03583a10860f8d113"
+				"privateKey": "85ea470fa9074bef85425f1d765bae7f510d9bbb33a75ac3c433c8c93ce53fe5"
 			}
 		}
 	},
 	"deployments": {
 		"emulator": {
-		  "emulator-artist": [
-			"Hello"
+		  "ADDY_ALIAS": [
+			"Artist"
 		  ]
 		}
-	  }
+	}
 }
